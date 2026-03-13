@@ -5,8 +5,9 @@ import 'package:mk/screens/course_screen.dart';
 class GradeScreen extends StatelessWidget {
 
   final List years= [
-"Year 1",
-"Year 2",
+"ቀዳማይ 1",
+"ቀዳማይ 2",
+
 
   ];
   // const GradeScreen({super.key});
