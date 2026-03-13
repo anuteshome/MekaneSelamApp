@@ -6,11 +6,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
         child:Column(
           children: [
             SizedBox(height:50),
-  Text("Mekane Selam")
+            Image.asset('assets/image/logos.png'),
+  Text("አንኳን ደህና መጡ")
           ],
         )
     
