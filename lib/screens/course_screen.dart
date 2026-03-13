@@ -8,8 +8,11 @@ class CourseScreen extends StatelessWidget {
 
   final Map<String, List<Map<String, String>>> coursesByYear = {
     "Year 1": [
-      {"name": "ሙከራ", "pdf": "assets/pdfs/math.pdf"},
-      {"name": "የመጻሐፍ ቅዱስ ጥናት", "pdf": "assets/pdfs/metshaf.pdf"},
+      {"name": "ግዕዝ", "pdf": "assets/pdfs/Geez7.pdf"},
+      {"name": "ስርዓተ ቤተ-ክርስቲያን", "pdf": "assets/pdfs/Sereatbatkeresetiyan7.pdf"},
+       {"name": "የቤተ-ክርስቲያን ታሪክ", "pdf": "assets/pdfs/Ybytkeresetiyanetarike7.pdf"},
+        {"name": "ክርስቲያናዊ ስነ-ምግባር", "pdf": "assets/pdfs/Kerstanyawisenmegbar7.pdf"},
+         {"name": "ቅዱሳት መጽሐፍት", "pdf": "assets/pdfs/kedusatmetsahft7.pdf"},
     ],
 
     "Year 2": [
