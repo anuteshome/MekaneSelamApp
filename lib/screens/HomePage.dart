@@ -27,10 +27,11 @@ class HomePage extends StatelessWidget {
   style: TextStyle(fontSize: 32,fontWeight:FontWeight(700) )),
       SizedBox(height: 25,),
       Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20.0),
+        padding: const EdgeInsets.symmetric(horizontal: 25.0),
         child: Center(
           child: Text("MK የተለያዩ የመማሪያ ማብራሪያዎችን እና ማቴሪያሎችን በአንድ ቦታ ለመድረስ የሚያግዝ ነው። ተማሪዎች የተለያዩ መጻሕፍት፣ ሰነዶች እና ሌሎች የመማሪያ ምንጮችን በቀላሉ እና በፍጥነት እንዲያገኙ ይረዳል።",
-            style: TextStyle(fontSize: 16,fontWeight:FontWeight.bold )),
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 16,fontWeight:FontWeight(500) )),
         ),
       ),
       SizedBox(height: 50,),
