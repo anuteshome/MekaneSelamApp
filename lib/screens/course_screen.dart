@@ -37,7 +37,9 @@ class CourseScreen extends StatelessWidget {
           final course = courses[index];
 
           return ListTile(
-            title: Text(course["name"]!),
+            title: Text(course["name"]!,
+           textAlign: TextAlign.center,
+            ),
             onTap: () {
               Navigator.push(
                 context,

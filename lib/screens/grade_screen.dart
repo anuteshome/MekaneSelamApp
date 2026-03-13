@@ -15,12 +15,15 @@ class GradeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       appBar: AppBar(title: const Text("ክፍሎች",style: TextStyle(),)),
+       appBar: AppBar(title: const Text("ክፍሎች",textAlign: TextAlign.center,style: TextStyle(),)),
       body: ListView.builder(
         itemCount: years.length,
         itemBuilder: (context, index) {
           return ListTile(
-            title: Text(years[index]),
+            title: Text(years[index],
+            textAlign: TextAlign.center,
+             style: TextStyle(),
+            ),
             onTap: () {
               Navigator.push(
                 context,
