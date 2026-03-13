@@ -15,7 +15,7 @@ class GradeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       appBar: AppBar(title: const Text("Grades")),
+       appBar: AppBar(title: const Text("ክፍሎች",style: TextStyle(),)),
       body: ListView.builder(
         itemCount: years.length,
         itemBuilder: (context, index) {
