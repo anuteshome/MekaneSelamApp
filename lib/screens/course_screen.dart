@@ -7,7 +7,12 @@ class CourseScreen extends StatelessWidget {
   CourseScreen({required this.grade});
 
   final Map<String, List<Map<String, String>>> coursesByYear = {
-    "Year 1": [
+    "ቀዳማይ 1": [
+      {"name": "ቅዱሳት መጻሕፍት", "pdf": "assets/pdfs/kedusat.pdf"},
+      {"name": "Networking", "pdf": "assets/pdfs/network.pdf"},
+    ],
+    
+    "ቀዳማይ 2": [
       {"name": "ግዕዝ", "pdf": "assets/pdfs/Geez7.pdf"},
       {"name": "ስርዓተ ቤተ-ክርስቲያን", "pdf": "assets/pdfs/Sereatbatkeresetiyan7.pdf"},
        {"name": "የቤተ-ክርስቲያን ታሪክ", "pdf": "assets/pdfs/Ybytkeresetiyanetarike7.pdf"},
@@ -15,10 +20,7 @@ class CourseScreen extends StatelessWidget {
          {"name": "ቅዱሳት መጽሐፍት", "pdf": "assets/pdfs/kedusatmetsahft7.pdf"},
     ],
 
-    "Year 2": [
-      {"name": "ቅዱሳት መጻሕፍት", "pdf": "assets/pdfs/kedusat.pdf"},
-      {"name": "Networking", "pdf": "assets/pdfs/network.pdf"},
-    ],
+    
   };
 
   @override
@@ -41,7 +43,10 @@ class CourseScreen extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) =>
-                      PdfScreen(path: course["pdf"]!),
+                    PdfScreen(
+  path: course["pdf"]!,
+  title: course["name"]!,
+)
                 ),
               );
             },
