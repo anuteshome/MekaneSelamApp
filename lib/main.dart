@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mk/screens/HomePage.dart';
 import 'package:mk/screens/grade_screen.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title:'Mekane Selam app',
-      home:GradeScreen(),
+      home:HomePage(),
      
     );
   }
