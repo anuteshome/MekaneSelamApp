@@ -11,15 +11,66 @@ class CourseScreen extends StatelessWidget {
       {
         "name": "ቅዱሳት መጻሕፍት",
         "chapters": [
-          // {"title": "Chapter 1", "pdf": "assets/pdfs/Geez7.pdf"},
-          // {"title": "Chapter 2", "pdf": "assets/pdfs/kedusat2.pdf"},
+          {"title": "Introduction", "pdf": "assets/pdfs/Grade6/Grade6KidusatMetsahft/Grade6kidusatmesahiftcompressed-1-10.pdf"},
+          {"title": "Chapter 1", "pdf": "assets/pdfs/Grade6/Grade6KidusatMetsahft/Grade 6- kidusat mesahift_compressed-13-17.pdf"},
+           {"title": "Chapter 2", "pdf": "assets/pdfs/Grade6/Grade6KidusatMetsahft/Grade 6- kidusat mesahift_compressed-19-34.pdf"},
+            {"title": "Chapter 3", "pdf": "assets/pdfs/Grade6/Grade6KidusatMetsahft/Grade 6- kidusat mesahift_compressed-35-40.pdf"},
+             {"title": "Chapter 4", "pdf": "assets/pdfs/Grade6/Grade6KidusatMetsahft/Grade 6- kidusat mesahift_compressed-41-46.pdf"},
+              {"title": "Chapter 5", "pdf": "assets/pdfs/Grade6/Grade6KidusatMetsahft/Grade 6- kidusat mesahift_compressed-47-54.pdf"},
+               {"title": "Chapter 6", "pdf": "assets/pdfs/Grade6/Grade6KidusatMetsahft/Grade 6- kidusat mesahift_compressed-55-73.pdf"},
         ]
       },
       {
-        "name": "Networking",
+        "name": "መሠረተ ሐይማኖት",
         "chapters": [
-          // {"title": "Chapter 1", "pdf": "assets/pdfs/network1.pdf"},
-          // {"title": "Chapter 2", "pdf": "assets/pdfs/network2.pdf"},
+         {"title": "Introduction", "pdf": "assets/pdfs/Grade6/Geade6MeserteHaymanot/Grade 6- meserete hayemanote_compressed-1-8.pdf"},
+          {"title": "Chapter 1", "pdf": "assets/pdfs/Grade6/Geade6MeserteHaymanot/Grade 6- meserete hayemanote_compressed-9-20.pdf"},
+           {"title": "Chapter 2", "pdf": "assets/pdfs/Grade6/Geade6MeserteHaymanot/Grade 6- meserete hayemanote_compressed-21-45-1-12.pdf"},
+            {"title": "Chapter 3", "pdf": "assets/pdfs/Grade6/Geade6MeserteHaymanot/Grade 6- meserete hayemanote_compressed-21-45-13-25.pdf"},
+            {"title": "Chapter 4", "pdf": "assets/pdfs/Grade6/Geade6MeserteHaymanot/Grade 6- meserete hayemanote_compressed-47-64.pdf"},
+             {"title": "Chapter 5", "pdf": "assets/pdfs/Grade6/Geade6MeserteHaymanot/Grade 6- meserete hayemanote_compressed-65-84.pdf"},
+        ]
+      },
+         {
+        "name": "ክርስቲያናዊ ስነ ምግባር",
+        "chapters": [
+          {"title": "Introduction", "pdf": "assets/pdfs/Grade6/Grade6KistyanawiSenemegbar/Grade 6- krstianawi senmegebare_compressed-1-9.pdf"},
+          {"title": "Chapter 1", "pdf": "assets/pdfs/Grade6/Grade6KistyanawiSenemegbar/Grade 6- krstianawi senmegebare_compressed-11-22.pdf"},
+          {"title": "Chapter 2", "pdf": "assets/pdfs/Grade6/Grade6KistyanawiSenemegbar/Grade 6- krstianawi senmegebare_compressed-23-62.pdf"},
+        ]
+      },
+         {
+        "name": "ልሳነ ግዕዝ",
+        "chapters": [
+           {"title": "Introduction", "pdf": "assets/pdfs/Grade6/Grade6LesaneGeez/Grade 6- lsane geez_compressed-1-8.pdf"},
+            {"title": "Chapter 1", "pdf": "assets/pdfs/Grade6/Grade6LesaneGeez/Grade 6- lsane geez_compressed-9-18.pdf"},
+             {"title": "Chapter 2", "pdf": "assets/pdfs/Grade6/Grade6LesaneGeez/Grade 6- lsane geez_compressed-19-26.pdf"},
+              {"title": "Chapter 3", "pdf": "assets/pdfs/Grade6/Grade6LesaneGeez/Grade 6- lsane geez_compressed-27-32.pdf"},
+               {"title": "Chapter 4", "pdf": "assets/pdfs/Grade6/Grade6LesaneGeez/Grade 6- lsane geez_compressed-33-39.pdf"},
+                {"title": "Chapter 5", "pdf": "assets/pdfs/Grade6/Grade6LesaneGeez/Grade 6- lsane geez_compressed-41-56.pdf"},
+
+        ]
+      },
+         {
+        "name": "ስርዓተ ቤተ ክርስቲያን",
+        "chapters": [
+      {"title": "Introduction", "pdf": "assets/pdfs/Grade6/Grade6SireateBetekerstyan/Grade 6- sirate betekristian_compressed-1-12.pdf"},
+      {"title": "Chapter 1", "pdf": "assets/pdfs/Grade6/Grade6SireateBetekerstyan/Grade 6- sirate betekristian_compressed-13-16.pdf"},
+      {"title": "Chapter 2", "pdf": "assets/pdfs/Grade6/Grade6SireateBetekerstyan/Grade 6- sirate betekristian_compressed-17-24.pdf"},
+      {"title": "Chapter 3", "pdf": "assets/pdfs/Grade6/Grade6SireateBetekerstyan/Grade 6- sirate betekristian_compressed-25-30.pdf"},
+      {"title": "Chapter 4", "pdf": "assets/pdfs/Grade6/Grade6SireateBetekerstyan/Grade 6- sirate betekristian_compressed-31-36.pdf"},
+      {"title": "Chapter 5", "pdf": "assets/pdfs/Grade6/Grade6SireateBetekerstyan/Grade 6- sirate betekristian_compressed-37-49.pdf"},
+        ]
+      },
+        {
+        "name": "የቤተ ክርስቲያን ታሪክ",
+        "chapters": [
+         {"title": "Introduction", "pdf": "assets/pdfs/Grade6/Grade6YebtekrstyanTarik/Grade 6- yebetekristian tarik_compressed-1-11.pdf"},
+          {"title": "Chapter 1", "pdf": "assets/pdfs/Grade6/Grade6YebtekrstyanTarik/Grade 6- yebetekristian tarik_compressed-13-17.pdf"},
+           {"title": "Chapter 2", "pdf": "assets/pdfs/Grade6/Grade6YebtekrstyanTarik/Grade 6- yebetekristian tarik_compressed-19-26.pdf"},
+            {"title": "Chapter 3", "pdf": "assets/pdfs/Grade6/Grade6YebtekrstyanTarik/Grade 6- yebetekristian tarik_compressed-27-32.pdf"},
+             {"title": "Chapter 4", "pdf": "assets/pdfs/Grade6/Grade6YebtekrstyanTarik/Grade 6- yebetekristian tarik_compressed-33-37.pdf"},
+              {"title": "Chapter 5", "pdf": "assets/pdfs/Grade6/Grade6YebtekrstyanTarik/Grade 6- yebetekristian tarik_compressed-39-52.pdf"},
         ]
       },
     ],

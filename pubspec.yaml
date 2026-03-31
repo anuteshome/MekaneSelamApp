@@ -67,6 +67,13 @@ flutter:
     - assets/pdfs/SerateBetekertyan7/
     - assets/pdfs/YebetekrstyanTarik7/
     - assets/pdfs/Geez7/
+    - assets/pdfs/Grade6/Geade6MeserteHaymanot/
+    - assets/pdfs/Grade6/Grade6KidusatMetsahft/
+    - assets/pdfs/Grade6/Grade6KistyanawiSenemegbar/
+    - assets/pdfs/Grade6/Grade6LesaneGeez/
+    - assets/pdfs/Grade6/Grade6SireateBetekerstyan/
+    - assets/pdfs/Grade6/Grade6YebtekrstyanTarik/
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
