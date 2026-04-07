@@ -73,6 +73,33 @@ flutter:
     - assets/pdfs/Grade6/Grade6LesaneGeez/
     - assets/pdfs/Grade6/Grade6SireateBetekerstyan/
     - assets/pdfs/Grade6/Grade6YebtekrstyanTarik/
+    - assets/pdfs/Grade5/KerstyanawiSenemegbar5/
+    - assets/pdfs/Grade5/KidusatMetsahfet5/
+    - assets/pdfs/Grade5/LesaneGeez5/
+    - assets/pdfs/Grade5/MeserteHaymanot5/
+    - assets/pdfs/Grade5/SerateBetekrstyan5/
+    - assets/pdfs/Grade5/YebetekrstyanTarik5/
+    - assets/pdfs/Grade4/KerstyanawiSenemebgar4/
+    - assets/pdfs/Grade4/KidusatMetsaheft4/
+    - assets/pdfs/Grade4/LesaneGeez4/
+    - assets/pdfs/Grade4/MesereteHaymanot4/
+    - assets/pdfs/Grade4/SerateBetekerstyan4/
+    - assets/pdfs/Grade4/YeBetekerstyanTarik/
+    - assets/pdfs/Grade3/KerstyanawiSenemgbar3/
+    - assets/pdfs/Grade3/KidusatMetsaheft3/
+    - assets/pdfs/Grade3/LesaneGeez3/
+    - assets/pdfs/Grade3/MeserteHaymanot3/
+    - assets/pdfs/Grade3/Sreatebertkerstyan3/
+    - assets/pdfs/Grade3/YeBetekerstyanTarik3/
+    - assets/pdfs/Grade2/KerstyanawiSenmgbar2/
+    - assets/pdfs/Grade2/KidusatMetshaft2/
+    - assets/pdfs/Grade2/MeserteHaymanot2/
+    - assets/pdfs/Grade2/SerateBetekerstyan2/
+    - assets/pdfs/Grade2/YebetekerstyanTarik2/
+
+    
+    
+    
 
 
   # To add assets to your application, add an assets section, like this:
