@@ -18,7 +18,10 @@ class HomePage extends StatelessWidget {
                 bottomLeft: Radius.circular(30),
                 bottomRight: Radius.circular(30),
               ),
-              child: Image.asset('assets/image/logos.png', fit: BoxFit.cover),
+              child: Opacity(
+                opacity: 0.7, // Adjust this value (0.0 to 1.0) for more or less transparency
+                child: Image.asset('assets/image/logos.png', fit: BoxFit.cover),
+              ),
             ),
             Text(
               "አንኳን ደህና መጡ",

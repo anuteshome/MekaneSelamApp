@@ -393,30 +393,90 @@ class CourseScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: Text(grade)),
-      body: ListView.builder(
-        itemCount: courses.length,
-        itemBuilder: (context, index) {
+      body: Container(
+        color: Theme.of(context).scaffoldBackgroundColor,
+        child: GridView.builder(
+          padding: const EdgeInsets.all(16.0),
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            crossAxisSpacing: 16.0,
+            mainAxisSpacing: 16.0,
+            childAspectRatio: 1.0,
+          ),
+          itemCount: courses.length,
+          itemBuilder: (context, index) {
 
-          final course = courses[index];
+            final course = courses[index];
 
-          return ListTile(
-            title: Text(
-              course["name"],
-              textAlign: TextAlign.center,
-            ),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => ChapterScreen(
-                    courseName: course["name"],
-                    chapters: course["chapters"],
+            return GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ChapterScreen(
+                      courseName: course["name"],
+                      chapters: course["chapters"],
+                    ),
                   ),
+                );
+              },
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.blue.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(16.0),
+                  border: Border.all(color: Colors.blue.shade200, width: 1.5),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.blue.withOpacity(0.05),
+                      blurRadius: 10,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
                 ),
-              );
-            },
-          );
-        },
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      width: 72,
+                      height: 72,
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Theme.of(context).brightness == Brightness.dark 
+                              ? Colors.grey.shade400 
+                              : const Color(0xFF4A5C75),
+                          width: 2.5,
+                        ),
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      child: Center(
+                        child: Icon(
+                          Icons.folder_outlined,
+                          color: Theme.of(context).brightness == Brightness.dark 
+                              ? Colors.grey.shade400 
+                              : const Color(0xFF4A5C75),
+                          size: 36,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 12.0),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                      child: Text(
+                        course["name"],
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 16.0,
+                          fontWeight: FontWeight.bold,
+                          color: Theme.of(context).brightness == Brightness.dark ? Colors.white : Colors.black87,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          },
+        ),
       ),
     );
   }
