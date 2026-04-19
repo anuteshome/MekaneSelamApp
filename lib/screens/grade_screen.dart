@@ -3,12 +3,13 @@ import 'package:mk/screens/course_screen.dart';
 
 class GradeScreen extends StatelessWidget {
   final List years = [
+    "1ተኛ ክፍል",
     "2ተኛ ክፍል",
     "3ተኛ ክፍል",
     "4ተኛ ክፍል",
     "5ተኛ ክፍል",
-    "ቀዳማይ 1",
-    "ቀዳማይ 2",
+    "6ተኛ ክፍል",
+    "7ተኛ ክፍል",
   ];
   // const GradeScreen({super.key});
 

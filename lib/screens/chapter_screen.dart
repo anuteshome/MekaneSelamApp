@@ -83,48 +83,48 @@ class ChapterScreen extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(height: 4.0),
-                          Text(
-                            "Course Document",
-                            style: TextStyle(
-                              fontSize: 12.0,
-                              color: Theme.of(context).brightness == Brightness.dark 
-                                  ? Colors.grey[400] 
-                                  : Colors.grey[600],
-                            ),
-                          ),
+                          // Text(
+                          //   "Course Document",
+                          //   style: TextStyle(
+                          //     fontSize: 12.0,
+                          //     color: Theme.of(context).brightness == Brightness.dark 
+                          //         ? Colors.grey[400] 
+                          //         : Colors.grey[600],
+                          //   ),
+                          // ),
                           const SizedBox(height: 8.0),
-                          // Stacked avatars imitating the design
-                          SizedBox(
-                            height: 24,
-                            child: Stack(
-                              children: [
-                                Positioned(
-                                  left: 0,
-                                  child: CircleAvatar(
-                                    radius: 12,
-                                    backgroundColor: Colors.blue.shade200,
-                                    child: const Icon(Icons.person, size: 14, color: Colors.white),
-                                  ),
-                                ),
-                                Positioned(
-                                  left: 14,
-                                  child: CircleAvatar(
-                                    radius: 12,
-                                    backgroundColor: Colors.purple.shade200,
-                                    child: const Icon(Icons.menu_book, size: 12, color: Colors.white),
-                                  ),
-                                ),
-                                Positioned(
-                                  left: 28,
-                                  child: CircleAvatar(
-                                    radius: 12,
-                                    backgroundColor: Colors.orange.shade200,
-                                    child: const Icon(Icons.star, size: 12, color: Colors.white),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
+                          // // Stacked avatars imitating the design
+                          // SizedBox(
+                          //   height: 24,
+                          //   child: Stack(
+                          //     children: [
+                          //       Positioned(
+                          //         left: 0,
+                          //         child: CircleAvatar(
+                          //           radius: 12,
+                          //           backgroundColor: Colors.blue.shade200,
+                          //           child: const Icon(Icons.person, size: 14, color: Colors.white),
+                          //         ),
+                          //       ),
+                          //       Positioned(
+                          //         left: 14,
+                          //         child: CircleAvatar(
+                          //           radius: 12,
+                          //           backgroundColor: Colors.purple.shade200,
+                          //           child: const Icon(Icons.menu_book, size: 12, color: Colors.white),
+                          //         ),
+                          //       ),
+                          //       Positioned(
+                          //         left: 28,
+                          //         child: CircleAvatar(
+                          //           radius: 12,
+                          //           backgroundColor: Colors.orange.shade200,
+                          //           child: const Icon(Icons.star, size: 12, color: Colors.white),
+                          //         ),
+                          //       ),
+                          //     ],
+                          //   ),
+                          // ),
                         ],
                       ),
                     ),

@@ -59,6 +59,8 @@ class _MainNavigationState extends State<MainNavigation> {
           setState(() {
             _currentIndex = index;
           });
+          // this is make the updated application to our future inovation and other purposes to make 
+          //this we will do better expreiance and a lot oportunittes and backup
         },
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
