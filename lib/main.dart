@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:mk/providers/theme_provider.dart';
-import 'package:mk/screens/HomePage.dart';
-import 'package:mk/screens/grade_screen.dart';
+import 'package:MS1/providers/theme_provider.dart';
+import 'package:MS1/screens/HomePage.dart';
+import 'package:MS1/screens/grade_screen.dart';
 
 void main() {
   runApp(

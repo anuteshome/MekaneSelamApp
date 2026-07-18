@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mk/screens/course_screen.dart';
+import 'package:MS1/screens/course_screen.dart';
 
 class GradeScreen extends StatelessWidget {
   final List years = [

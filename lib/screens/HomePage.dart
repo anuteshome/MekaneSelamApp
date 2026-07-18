@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mk/screens/grade_screen.dart';
+import 'package:MS1/screens/grade_screen.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
