@@ -59,11 +59,11 @@ flutter_launcher_icons:
     image_path: "assets/image/image.png"
 
 flutter_native_splash:
-color: '#FFFFFF'
-image: assets/image/logo.png
-android: true
-ios: true
-web: false
+  color: '#FFFFFF'
+  image: assets/image/logo.png
+  android: true
+  ios: true
+  web: false
 
 
 # For information on the generic Dart part of this file, see the
