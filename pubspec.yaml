@@ -63,11 +63,6 @@ flutter:
   assets:
     - assets/pdfs/
     - assets/image/
-    - assets/pdfs/kedusatMetshafChapter/
-    - assets/pdfs/kerstyanawiSenemegbar7/
-    - assets/pdfs/SerateBetekertyan7/
-    - assets/pdfs/YebetekrstyanTarik7/
-    - assets/pdfs/Geez7/
     - assets/pdfs/Grade6/Geade6MeserteHaymanot/
     - assets/pdfs/Grade6/Grade6KidusatMetsahft/
     - assets/pdfs/Grade6/Grade6KistyanawiSenemegbar/
