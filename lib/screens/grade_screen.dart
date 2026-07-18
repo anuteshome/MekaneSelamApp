@@ -9,7 +9,7 @@ class GradeScreen extends StatelessWidget {
     "4ተኛ ክፍል",
     "5ተኛ ክፍል",
     "6ተኛ ክፍል",
-    "7ተኛ ክፍል",
+  
   ];
   // const GradeScreen({super.key});
 
